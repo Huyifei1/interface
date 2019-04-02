@@ -7,7 +7,18 @@ public abstract class MyInterfaceAbstract implements MyInterfaceA,MyInterfaceB {
     }
 
     @Override
+    public void methodAbs() {
+
+    }
+
+    @Override
+    public void methodDefault() {
+
+    }
+
+    @Override
     public void methodB() {
 
     }
+
 }
